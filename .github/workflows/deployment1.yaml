@@ -42,7 +42,7 @@ jobs:
   deploy:
     needs: test
     runs-on: ubuntu-latest
-    steps:J
+    steps:
       - name: Get code
         uses: actions/checkout@v3
       - name: Install dependencies
